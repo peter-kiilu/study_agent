@@ -26,7 +26,7 @@ def build_study_agent() -> AgentExecutor:
     # ── BRAIN ────────────────────────────────────────────────────────────────
     if os.getenv("GOOGLE_API_KEY"):
         llm = ChatGoogleGenerativeAI(
-            model="gemini-1.5-flash",
+            model="gemini-2.5-flash",
             temperature=0.3,
             max_output_tokens=4000
         )
