@@ -87,3 +87,7 @@ _(Make sure to pass your environment secrets to Cloud Run so the app can access 
 - [Streamlit](https://streamlit.io/) - Web Interface
 - [Google GenAI](https://ai.google.dev/) / [Groq](https://groq.com/) - Large Language Models
 - [pypdf](https://pypi.org/project/pypdf/), [python-docx](https://python-docx.readthedocs.io/), [python-pptx](https://python-pptx.readthedocs.io/) - Document parsing
+
+## 📄 Developer Documentation
+
+For a detailed breakdown of the system architecture, tool definitions, and extension guides, please refer to the [System Documentation](SYSTEM_DOCUMENTATION.md).
